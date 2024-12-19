@@ -1,0 +1,17 @@
+@import "/vendor/filament/filament/resources/css/theme.css";
+
+@config 'tailwind.config.js';
+
+@layer components {
+    .fi-topbar {
+        @apply bg-yellow;
+    }
+
+    .items-center {
+        @apply bg-yellow;
+    }
+}
+
+.filament-header {
+    @apply bg-bluea-500; /* Biru */
+}
